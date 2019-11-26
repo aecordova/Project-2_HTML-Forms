@@ -1,0 +1,13 @@
+/* general */
+#body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    background-color:lightgray ;
+}
+
+/* header */
+.but{
+    color: white;
+    background-color: #0077C5;
+}
+
