@@ -18,23 +18,23 @@
         <span><img src="image/quickbooks.svg" alt="quickbooks" class="icon">quickbooks</span>
         <span><img src="image/tt.svg" alt="tt" class="icon">turbotax</span>
       </section>
-      <form>
+      <fieldset>
         <h3>Create an Intuit account</h3>
         <p>One account for everything Intuit, including Mint.</p>
         <p>Learn more</p>
         <p>Already have an account? Sign in</p>
-        <label>Email address</label>
-        <input type="email">
-        <label>Phone (recommended)</label>
-        <input type="number">
-        <label id="calls">Standard call, messaging or data rates may apply.</label>
-        <label>Password</label>
-        <input type="password">
+        <label for="email">Email address</label>
+        <input type="email" name="email">
+        <label for="phone">Phone (recommended)</label>
+        <input type="tel" name="phone">
+        <label id="calls" for="phone">Standard call, messaging or data rates may apply.</label>
+        <label for="password">Password</label>
+        <input type="password" name="password">
         <button id="create_acc" class="but"><img src="image/lock.png" alt="lock" class="lock">Create Account</button>
         <p id="disc">By clicking Create account, you agree to our
           Terms and have read and acknowledge our Privacy Statement.</p>
         <p id="captcha">Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
-      </form>
+      </fieldset>
       <footer>
         <p>Legal Privacy Security<br>
         © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
