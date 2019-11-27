@@ -21,11 +21,26 @@ form p{
 }
 #calls{
     font-size: 0.7em;
+    margin-top: 2px;
 }
 #disc, #captcha{
     font-style: italic;
     font-size: 0.7em;
     color: gray;
+}
+footer{
+    font-size: 0.7em;
+    text-align: center;
+    color: rgb(42, 42, 42);
+}
+.foot_links{
+    color: rgb(42, 42, 42);
+}
+.h_links{
+    color: rgb(42, 42, 42);
+}
+#space{
+    letter-spacing: 1px;
 }
 /* header */
 header{
@@ -37,7 +52,8 @@ header{
     grid-row: 1/4;
 }
 header p{
-    text-align: right;
+    align-self: center;
+    text-align: center;
     font-size: 0.7em;
     margin-right: 4px;
 }
@@ -45,7 +61,7 @@ header p{
 .but{
     color: white;
     background-color: #0077C5;
-    align-items: center;
+    align-self: center;
     border-radius: 5px;
     border: solid 1px black;
 }
@@ -69,14 +85,17 @@ header p{
     width: auto;
 }
 #intuit{
-    width: 200px;
+    width: 140px;
     height: auto;
+    margin: auto;
+    margin-bottom: 15px;
 }
 /* form title*/
 #form_header{
     display: flex;
     flex-flow: column;
-    margin: 5% auto;
+    margin: 0 auto;
+    margin-bottom: 15px;
 }
 #intuit,#icons{
     justify-content: space-between;
@@ -98,13 +117,14 @@ fieldset{
     border: none;
 }
 fieldset *{
-    margin-top: 4px;
+    margin-top: 20px;
     text-align: left;
     margin-left: 5%;
 }
 fieldset input{
     margin: 6px auto;
     width: 90%;
+    height: 35px;
     border: solid 1px gray;
     border-radius: 2px;
 }
