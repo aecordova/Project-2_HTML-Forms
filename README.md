@@ -1,14 +1,20 @@
 ## HTML Forms Project  - Intuit Sign In Form Clone
 
-T2nd Microverse Project, part of the HTML and CSS course
+2nd Microverse Project, part of the HTML and CSS course
+
+Our goal is to replicate the mint.com Sign in form and learn the basics of CSS HTML and correct use of form sintax.
+
+# Tools
+
+Stylelint for CSS and W3C Markup Validator for HTML.
 
 # Participants
 
-Angel Cordova : aecordova
-Lucas Mazo: lucasmazo32
+Angel Cordova : aecordova email:ae_cordova@outlook.com
+Lucas Mazo: lucasmazo32 email:lucasmazo32@gmail.com
 
 
-## Requirements
+# Requirements
 
 *** Although it has input fields, nothing works since we didnt use any javascript in this project
 
@@ -26,12 +32,11 @@ Form
     Has a Disclaimer for Privacy Statement
     It'ś enclosed in a white box
 
-
 Footer
 
     has Legal, Privacy and Security links
     It has a Copyright statement
 
 
-## Contributing
+# Contributing
 Comments, Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
