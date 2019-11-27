@@ -6,22 +6,35 @@ body{
     display: grid;
 }
 .gray_txt{
-    color: gray;
+    color: rgb(42, 42, 42);
 }
 a{
     text-decoration: none;
     color: #0077C5;
 }
+form h3{
+    font-size: 1.7em;
+    font-style: normal;
+}
+form p{
+    font-size: 0.9em;
+}
+#calls{
+    font-size: 0.7em;
+}
+#disc, #captcha{
+    font-style: italic;
+    font-size: 0.7em;
+    color: gray;
+}
 /* header */
 header{
     display: flex;
-    flex-flow: row;
+    flex-flow: row-reverse;
     align-items: center;
     margin-right: 20px;
-    position: relative;
     grid-column: 1;
     grid-row: 1/4;
-    justify-content: right;
 }
 header p{
     text-align: right;
@@ -45,6 +58,11 @@ header p{
     height: 35px;
     width: 100px;
 }
+#create_acc{
+    height: 30px;
+    width: 150px;
+    margin: 0 auto;
+}
 /* icons */
 .icon{
     height: 20px;
@@ -64,4 +82,29 @@ header p{
     justify-content: space-between;
 }
 /* form */
-
+form{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    border: solid 1px gray;
+    border-radius: 2px;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+fieldset{
+    display: flex;
+    flex-flow: column;
+    border: none;
+}
+fieldset *{
+    margin-top: 4px;
+    text-align: left;
+    margin-left: 5%;
+}
+fieldset input{
+    margin: 6px auto;
+    width: 90%;
+    border: solid 1px gray;
+    border-radius: 2px;
+}
