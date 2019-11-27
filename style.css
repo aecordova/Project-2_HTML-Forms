@@ -1,0 +1,156 @@
+/* general */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12pt;
+  background-color: #dcdcdc;
+  display: grid;
+}
+
+.gray_txt {
+  color: rgb(42, 42, 42);
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+form h3 {
+  font-size: 1.7em;
+  font-style: normal;
+}
+
+form p {
+  font-size: 0.9em;
+}
+
+#calls {
+  font-size: 0.7em;
+  margin-top: 2px;
+}
+
+#disc,
+#captcha {
+  font-style: italic;
+  font-size: 0.7em;
+  color: gray;
+}
+
+footer {
+  font-size: 0.7em;
+  text-align: center;
+  color: rgb(42, 42, 42);
+}
+
+.foot_links {
+  color: rgb(42, 42, 42);
+}
+
+.h_links {
+  color: rgb(42, 42, 42);
+}
+
+#space {
+  letter-spacing: 1px;
+}
+
+/* header */
+header {
+  display: flex;
+  flex-flow: row-reverse;
+  align-items: center;
+  margin-right: 20px;
+  grid-column: 1;
+  grid-row: 1/4;
+}
+
+header p {
+  align-self: center;
+  text-align: center;
+  font-size: 0.7em;
+  margin-right: 4px;
+}
+
+/* buttons style */
+.but {
+  color: white;
+  background-color: #0077c5;
+  align-self: center;
+  border-radius: 5px;
+  border: solid 1px black;
+}
+
+.lock {
+  height: 12px;
+  width: auto;
+  margin-right: 3px;
+}
+
+#sign_in {
+  height: 35px;
+  width: 100px;
+}
+
+#create_acc {
+  height: 30px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+/* icons */
+.icon {
+  height: 20px;
+  width: auto;
+}
+
+#intuit {
+  width: 140px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+/* form title */
+#form_header {
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+#intuit,
+#icons {
+  justify-content: space-between;
+}
+
+/* form */
+form {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  border: solid 1px gray;
+  border-radius: 2px;
+  background-color: white;
+  width: 400px;
+  margin: 0 auto;
+}
+
+fieldset {
+  display: flex;
+  flex-flow: column;
+  border: none;
+}
+
+fieldset * {
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 5%;
+}
+
+fieldset input {
+  margin: 6px auto;
+  width: 90%;
+  height: 35px;
+  border: solid 1px gray;
+  border-radius: 2px;
+}
