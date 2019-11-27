@@ -3,6 +3,7 @@ body{
     font-family: Helvetica, Arial, sans-serif;
     font-size: 12pt;
     background-color: #DCDCDC;
+    display: grid;
 }
 .gray_txt{
     color: gray;
@@ -15,9 +16,12 @@ a{
 header{
     display: flex;
     flex-flow: row;
-    float: right;
     align-items: center;
     margin-right: 20px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1/4;
+    justify-content: right;
 }
 header p{
     text-align: right;
@@ -50,3 +54,14 @@ header p{
     width: 200px;
     height: auto;
 }
+/* form title*/
+#form_header{
+    display: flex;
+    flex-flow: column;
+    margin: 5% auto;
+}
+#intuit,#icons{
+    justify-content: space-between;
+}
+/* form */
+
