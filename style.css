@@ -1,16 +1,46 @@
 /* general */
-#body{
-    font-family: Arial, Helvetica, sans-serif;
+body{
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 12pt;
-    background-color:lightgray ;
+    background-color: #DCDCDC;
 }
-
+.gray_txt{
+    color: gray;
+}
+a{
+    text-decoration: none;
+    color: #0077C5;
+}
 /* header */
+header{
+    display: flex;
+    flex-flow: row;
+    float: right;
+    align-items: center;
+    margin-right: 20px;
+}
+header p{
+    text-align: right;
+    font-size: 0.7em;
+    margin-right: 4px;
+}
+/* buttons style */
 .but{
     color: white;
     background-color: #0077C5;
+    align-items: center;
+    border-radius: 5px;
+    border: solid 1px black;
 }
-
+.lock{
+    height: 12px;
+    width: auto;
+    margin-right: 3px;
+}
+#sign_in{
+    height: 35px;
+    width: 100px;
+}
 /* icons */
 .icon{
     height: 20px;
